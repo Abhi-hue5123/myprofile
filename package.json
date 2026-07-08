@@ -1,0 +1,42 @@
+{
+  "name": "abhiram-singuru-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio of Abhiram Singuru — Big Data Engineer.",
+  "author": "Abhiram Singuru",
+  "license": "ISC",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.41.1",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
+    "geist": "^1.5.2",
+    "lenis": "^1.3.23",
+    "mini-svg-data-uri": "^1.4.4",
+    "motion": "^12.0.0",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-icons": "^5.4.0",
+    "tailwind-merge": "^2.6.0",
+    "vaul": "^1.1.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.2.4",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.2.4"
+  }
+}
