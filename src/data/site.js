@@ -157,8 +157,8 @@ export const writing = [
 ];
 
 export const stack = {
-  reachFor: ["Python", "SQL", "Hive", "Hadoop (HDFS)", "AWS", "ETL Development", "Unix Shell Scripting", "Git"],
-  comfortable: ["Impala", "PySpark", "Talend", "Oracle SQL", "PL/SQL", "Snowflake", "TOAD", "Splunk", "Dynatrace", "VS Code"],
+  reachFor: ["Python", "SQL", "Hive", "Hadoop (HDFS)", "PySpark", "ETL Development", "Unix Shell Scripting", "Git"],
+  comfortable: ["Impala", "AWS", "Talend", "Oracle SQL", "PL/SQL", "Snowflake", "TOAD", "Splunk", "Dynatrace", "VS Code"],
 };
 
 export const navLinks = [
