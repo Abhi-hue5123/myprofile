@@ -2,16 +2,16 @@ export const site = {
   name: "Abhiram Singuru",
   shortName: "Abhiram Singuru",
   initials: "as",
-  role: "Big Data Engineer",
+  role: "Data Engineer",
   tagline:
-    "Big Data Engineer with 4+ years of experience designing enterprise data ingestion pipelines, building scalable ETL workflows, automating preprocessing using Python, and optimizing large-scale Oracle and Hadoop ecosystems.",
-  pillStatus: "Available for opportunities",
+    "Data Engineer with 4+ years building enterprise-grade pipelines — from raw ingestion to clean, query-ready data at scale.",
+  pillStatus: "Open to opportunities",
   location: "Hyderabad, India",
   timezone: "IST · UTC+5:30",
   email: "abhiramsinguru@gmail.com",
   resume: "/files/Abhiram_Singuru_CV.pdf",
   url: "https://abhiramsinguru.vercel.app",
-  replyWithin: "Replies within a day.",
+  replyWithin: "Usually replies within 24 hours.",
   avatar: "/images/profile.png",
   portrait: "/images/profile.png",
 };
@@ -22,15 +22,15 @@ export const socials = [
 ];
 
 export const about = [
-  "I'm a Data Engineer with 4+ years of experience specializing in ETL development, big data ingestion, and cloud-based data engineering. I design and maintain scalable data pipelines using Python, SQL, Hive, Hadoop, and AWS, enabling reliable movement of large-scale enterprise data across distributed systems.",
-  "At Tata Consultancy Services, I work on Citi Bank's enterprise data platform — building scalable data ingestion pipelines, automating preprocessing workflows, onboarding enterprise datasets into Hadoop ecosystems, and optimizing Oracle database solutions.",
-  "My toolkit spans Python, Hive, Impala, Oracle PL/SQL, Hadoop, Autosys, and Git. I enjoy solving production issues, improving data quality, automating repetitive processes, and continuously learning modern data engineering technologies.",
+  "I build the infrastructure that makes data reliable. With 4+ years in data engineering, I specialize in ETL development, large-scale ingestion, and distributed data systems using Python, Hive, Hadoop, and AWS.",
+  "At Tata Consultancy Services, I work on Citi Bank's enterprise data platform — designing ingestion pipelines, preprocessing enterprise datasets at scale, and keeping production systems running clean and on time.",
+  "I enjoy the unglamorous parts of data work: hunting down root causes, improving data quality, and automating away the noise. My stack includes Python, Hive, Impala, Oracle PL/SQL, Hadoop, Autosys, and Git.",
 ];
 
 export const currently = [
-  { label: "Currently", value: "Big Data Engineer @ Tata Consultancy Services" },
-  { label: "Focus", value: "Enterprise ETL, Hadoop & cloud data pipelines" },
-  { label: "Certified", value: "AWS Certified Cloud Practitioner" },
+  { label: "Currently", value: "Data Engineer @ Tata Consultancy Services" },
+  { label: "Focus", value: "Enterprise ETL, distributed data & cloud pipelines" },
+  { label: "Certified", value: "AWS Cloud Practitioner · OCI Gen AI · Oracle SQL" },
 ];
 
 export const experience = [
@@ -40,14 +40,14 @@ export const experience = [
     roles: [
       {
         title: "Big Data Engineer",
-        period: "May 2025 — Present",
+        period: "Oct 2025 — Present",
         bullets: [
-          "Develop and maintain enterprise-scale ETL and data ingestion pipelines using Python, Hive, Hadoop (HDFS), and AWS.",
-          "Build and optimize batch data processing workflows to ingest data from multiple source systems into distributed data platforms.",
-          "Perform pre-processing and post-processing of structured and semi-structured datasets using Python and PySpark.",
-          "Troubleshoot production pipeline failures, perform root cause analysis, and ensure reliable end-to-end data delivery.",
-          "Validate data quality, monitor ingestion workflows, and support production deployments across UAT and Production environments.",
-          "Collaborate with cross-functional teams to design scalable data solutions and improve pipeline performance.",
+          "Own end-to-end ETL pipelines ingesting enterprise data into Hadoop-based platforms at scale.",
+          "Design and optimize batch processing workflows across multiple source systems for downstream analytics.",
+          "Automate preprocessing of structured and semi-structured data using Python and PySpark.",
+          "Diagnose and resolve production pipeline failures — root cause analysis to zero-downtime recovery.",
+          "Enforce data quality standards across UAT and Production, monitoring ingestion health end-to-end.",
+          "Partner with cross-functional teams to architect scalable data solutions and hit reliability targets.",
         ],
         stack: ["Python", "SQL", "Hive", "Hadoop (HDFS)", "PySpark", "AWS", "Git"],
       },
@@ -59,14 +59,13 @@ export const experience = [
     roles: [
       {
         title: "Programmer Analyst / Associate",
-        period: "Oct 2021 — Apr 2025",
+        period: "Oct 2021 — Sep 2025",
         bullets: [
-          "Designed and optimized Oracle PL/SQL procedures, packages, functions, and database triggers for enterprise applications.",
-          "Developed Unix shell scripts to automate backend processes and improve operational efficiency.",
-          "Provided production support by analyzing incidents, resolving database issues, and implementing permanent fixes.",
-          "Collaborated with business stakeholders to gather requirements, perform data validation, and deliver production-ready solutions.",
-          "Automated recurring operational tasks, reducing manual effort and improving process reliability.",
-          "Mentored junior team members on Oracle development, SQL optimization, and production support best practices.",
+          "Built and tuned Oracle PL/SQL packages, procedures, and triggers powering enterprise applications.",
+          "Automated backend operations with Unix shell scripts, cutting manual effort and reducing errors.",
+          "Resolved production incidents fast — from triage to permanent fix — maintaining system stability.",
+          "Translated business requirements into production-ready database solutions, validated end-to-end.",
+          "Mentored junior engineers on Oracle development, SQL optimization, and production support discipline.",
         ],
         stack: ["Oracle SQL", "PL/SQL", "Unix Shell Scripting", "Oracle", "TOAD", "Git"],
       },
@@ -80,7 +79,7 @@ export const selectedWork = [
     year: "2025 — Present",
     title: "Enterprise ETL Data Ingestion Pipeline",
     blurb:
-      "Designed and maintained scalable ETL pipelines to ingest data from multiple enterprise source systems into Hadoop-based data platforms. Built Python-driven preprocessing workflows, validated schema integrity, and optimized batch ingestion for reliable downstream analytics.",
+      "End-to-end data ingestion pipelines moving enterprise data from source systems into Hadoop at scale. Python-driven preprocessing, schema validation, and batch optimization for reliable downstream analytics.",
     stack: ["Python", "SQL", "Hive", "Hadoop (HDFS)", "AWS", "ETL"],
     href: null,
     repo: null,
@@ -91,7 +90,7 @@ export const selectedWork = [
     year: "2025 — Present",
     title: "Python Data Preprocessing Framework",
     blurb:
-      "Developed reusable Python utilities to preprocess structured and semi-structured datasets by cleaning records, validating schema, handling fixed-width files, removing inconsistencies, and preparing data for ingestion into Hive tables.",
+      "Reusable Python toolkit for cleaning, validating, and transforming enterprise datasets — fixed-width files, schema mismatches, inconsistencies — before ingestion into Hive.",
     stack: ["Python", "Pandas", "PySpark", "Hive", "Data Validation"],
     href: null,
     repo: null,
@@ -99,22 +98,32 @@ export const selectedWork = [
   },
   {
     slug: "pipeline-monitoring-recovery",
-    year: "2021 — 2025",
+    year: "2021 — Present",
     title: "Production Pipeline Monitoring & Recovery",
     blurb:
-      "Implemented automation scripts to monitor enterprise data ingestion workflows, detect pipeline failures, validate data loads, and support recovery operations through log analysis and production troubleshooting.",
+      "Automated monitoring and recovery system for enterprise ingestion workflows. Detects failures, validates data loads, and surfaces root causes through structured log analysis.",
     stack: ["Python", "Unix Shell", "SQL", "Hive", "Git"],
+    href: null,
+    repo: null,
+    confidential: true,
+  },  {
+    slug: "jdk17-migration-kafka",
+    year: "2026",
+    title: "JDK 17 Migration — Kafka File Ingestion Services",
+    blurb:
+      "Migrated 2 file-based ingestion services (Kafka sink) from legacy JDK to JDK 17. Updated configurations, resolved CVM remediation bugs, and executed end-to-end validation in UAT. Deployed to production via Lightspeed and GitHub.",
+    stack: ["Java", "JDK 17", "Kafka", "GitHub", "Lightspeed", "UAT Testing"],
     href: null,
     repo: null,
     confidential: true,
   },
   {
-    slug: "aws-data-lake-etl",
-    year: "2024 — 2025",
-    title: "AWS Data Lake ETL Pipeline",
+    slug: "rest-api-ingestion-pmc",
+    year: "2026",
+    title: "REST API Ingestion Pipeline — PMC Payments Data",
     blurb:
-      "Designed a cloud-based ETL pipeline to ingest, transform, and load structured datasets into an AWS-backed data lake using scalable storage and distributed processing concepts while implementing dimensional modeling and data quality validation.",
-    stack: ["AWS", "Python", "SQL", "ETL", "Data Lake"],
+      "Built and deployed an end-to-end REST API ingestion pipeline to pull payments data (PMC rates) from ISG Cloud. Established connectivity across SIT, UAT, and Production. Python script fetches, flattens, and explodes JSON responses into delimited files for Hive table loading via Banzai.",
+    stack: ["Python", "REST API", "JSON", "Hive", "Banzai", "SIT/UAT/Prod"],
     href: null,
     repo: null,
     confidential: true,
@@ -122,9 +131,11 @@ export const selectedWork = [
 ];
 
 export const archive = [
-  { year: "2025", title: "Enterprise ETL Data Ingestion Platform", made: "Tata Consultancy Services", stack: ["Python", "Hive", "Hadoop", "AWS", "ETL"], href: null },
-  { year: "2025", title: "Python Data Preprocessing Framework", made: "Tata Consultancy Services", stack: ["Python", "PySpark", "Pandas", "Data Validation"], href: null },
-  { year: "2025", title: "Production Data Pipeline Support", made: "Tata Consultancy Services", stack: ["SQL", "Hive", "Unix Shell", "Git"], href: null },
+  { year: "2026", title: "REST API Ingestion Pipeline — PMC Payments Data", made: "Tata Consultancy Services", stack: ["Python", "REST API", "JSON", "Hive", "Banzai"], href: null },
+  { year: "2026", title: "JDK 17 Migration — Kafka File Ingestion Services", made: "Tata Consultancy Services", stack: ["Java", "JDK 17", "Kafka", "GitHub", "Lightspeed"], href: null },
+  { year: "2026", title: "Enterprise ETL Data Ingestion Platform", made: "Tata Consultancy Services", stack: ["Python", "Hive", "Hadoop", "AWS", "ETL"], href: null },
+  { year: "2026", title: "Python Data Preprocessing Framework", made: "Tata Consultancy Services", stack: ["Python", "PySpark", "Pandas", "Data Validation"], href: null },
+  { year: "2026", title: "Production Data Pipeline Support", made: "Tata Consultancy Services", stack: ["SQL", "Hive", "Unix Shell", "Git"], href: null },
   { year: "2024", title: "Oracle Database Development", made: "Cognizant Technology Solutions", stack: ["Oracle SQL", "PL/SQL", "Unix Shell", "TOAD"], href: null },
   { year: "2023", title: "Production Support & Database Optimization", made: "Cognizant Technology Solutions", stack: ["PL/SQL", "Oracle", "SQL Performance", "Git"], href: null },
 ];
@@ -158,7 +169,7 @@ export const writing = [
 
 export const stack = {
   reachFor: ["Python", "SQL", "Hive", "Hadoop (HDFS)", "PySpark", "ETL Development", "Unix Shell Scripting", "Git"],
-  comfortable: ["Impala", "AWS", "Talend", "Oracle SQL", "PL/SQL", "Snowflake", "TOAD", "Splunk", "Dynatrace", "VS Code"],
+  comfortable: ["Impala", "AWS", "Talend", "Oracle SQL", "PL/SQL", "Banzai", "TOAD", "Splunk", "Dynatrace", "VS Code"],
 };
 
 export const navLinks = [
@@ -172,7 +183,7 @@ export const navLinks = [
 export const stats = [
   { value: 4, suffix: "+", label: "Years Experience" },
   { value: 3, suffix: "", label: "Certifications" },
-  { value: 10, suffix: "+", label: "Enterprise Procedures" },
+  { value: 10, suffix: "+", label: "Pipeline Projects" },
 ];
 
 export const techMarquee = {
@@ -192,7 +203,7 @@ export const techMarquee = {
     { name: "Talend", icon: null, color: "#22D3EE" },
     { name: "Oracle SQL", icon: null, color: "#F80000" },
     { name: "PL/SQL", icon: null, color: "#F80000" },
-    { name: "Snowflake", icon: "SiSnowflake", color: "#29B5E8" },
+    { name: "Banzai", icon: "SiSnowflake", color: "#29B5E8" },
     { name: "TOAD", icon: null, color: "#7C5CFF" },
     { name: "Splunk", icon: "SiSplunk", color: "#FF6C37" },
     { name: "Dynatrace", icon: "SiDynatrace", color: "#1496FF" },

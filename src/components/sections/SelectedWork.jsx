@@ -37,19 +37,15 @@ export default function SelectedWork() {
           </div>
         </FadeInUp>
 
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-6 gap-4 md:gap-5">
-          {/* Featured: spans 2 rows, 4 cols on desktop */}
-          <FadeInUp className="md:col-span-4 md:row-span-2">
-            <BentoCard project={featured} featured />
-          </FadeInUp>
+        {/* Featured card */}
+        <FadeInUp className="mt-12">
+          <BentoCard project={featured} featured />
+        </FadeInUp>
 
-          {/* Rest: 2 cols each */}
+        {/* Rest: auto-filling 3-column grid — expands with any number of cards */}
+        <div className="mt-4 md:mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {rest.map((p, i) => (
-            <FadeInUp
-              key={p.slug}
-              delay={0.1 + i * 0.08}
-              className="md:col-span-2"
-            >
+            <FadeInUp key={p.slug} delay={0.1 + i * 0.08}>
               <BentoCard project={p} />
             </FadeInUp>
           ))}
