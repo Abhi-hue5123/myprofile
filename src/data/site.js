@@ -4,7 +4,7 @@ export const site = {
   initials: "as",
   role: "Data Engineer",
   tagline:
-    "Data Engineer with 4+ years building enterprise-grade pipelines — from raw ingestion to clean, query-ready data at scale.",
+    "Data Engineer with 5+ years building enterprise-grade pipelines — from raw ingestion to clean, query-ready data at scale.",
   pillStatus: "Open to opportunities",
   location: "Hyderabad, India",
   timezone: "IST · UTC+5:30",
